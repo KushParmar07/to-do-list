@@ -1,0 +1,183 @@
+
+
+body {
+  transition: background-color 0.3s ease;
+  background-color: #f5f5f5; 
+}
+
+.to-do-list {
+  width: 500px;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.task-input-text {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 1em;
+}
+
+.add-task {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+.add-task:hover {
+  background-color: #367c39;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.task-name {
+  font-size: 1.1em;
+  flex-grow: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.task-buttons button {
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-buttons button:hover {
+  opacity: 0.8;
+}
+
+.task-buttons button:nth-child(1) {
+  background-color: #f44336;
+}
+
+.task-buttons button:nth-child(2) {
+  background-color: #FFC107;
+}
+
+.task-buttons button:nth-child(3) {
+  background-color: #2196F3;
+}
+
+
+.to-do-list {
+  background-color: rgb(241, 233, 233); 
+}
+
+
+.to-do-list.dark-mode {
+  background-color: #555d6d; 
+}
+
+.to-do-list.dark-mode .title {
+  color: #e06c75;
+}
+
+.to-do-list.dark-mode .task-input-text {
+  background-color: #3e4451;
+  color: #abb2bf;
+  border-color: #5c6370;
+}
+
+.to-do-list.dark-mode .add-task {
+  background-color: #56b6c2; 
+}
+
+.to-do-list.dark-mode .task {
+  background-color: #3e4451;
+  border-color: #5c6370;
+}
+
+.to-do-list.dark-mode .task-name {
+  color: #abb2bf;
+}
+
+.to-do-list.dark-mode .task-buttons button:nth-child(1) {
+  background-color: #d19a66;
+}
+
+.to-do-list.dark-mode .task-buttons button:nth-child(2) {
+  background-color: #56b6c2;
+}
+
+.to-do-list.dark-mode .task-buttons button:nth-child(3) {
+  background-color: #61afef;
+}
+
+body.dark-mode {
+    background-color: #282c34; 
+  }
+
+
+.color-scheme-toggle {
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #4CAF50; 
+  color: white; 
+  height: 50px;
+}
+
+.color-scheme-toggle:hover {
+  opacity: 0.8;
+}
+
+.to-do-list.dark-mode .color-scheme-toggle {
+  background-color: #61afef; 
+  color: #282c34; 
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 20px;
+}
